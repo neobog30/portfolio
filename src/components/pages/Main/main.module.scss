@@ -1,0 +1,30 @@
+.container {
+    background: azure;
+    height: calc(100vh - 35px);
+}
+
+.a {
+    // background: red;
+    width: 100%;
+    height: 240px;
+    // margin-top: 25px;
+    // padding: 0 15px;
+    display: flex;
+    align-items: center;
+    
+    .a_a {
+        width: 30%;
+        height: 90%;
+        background: beige;
+        margin-right: auto;
+        margin-left: 15px;
+
+    }
+
+    .a_b {
+        width: 30%;
+        height: 90%;
+        background: blue;
+        margin: 15px;
+    }
+}
