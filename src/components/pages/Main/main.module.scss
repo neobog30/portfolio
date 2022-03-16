@@ -1,30 +1,66 @@
 .container {
     background: azure;
     height: calc(100vh - 35px);
-}
-
-.a {
-    // background: red;
-    width: 100%;
-    height: 240px;
-    // margin-top: 25px;
-    // padding: 0 15px;
-    display: flex;
-    align-items: center;
     
-    .a_a {
-        width: 30%;
-        height: 90%;
-        background: beige;
-        margin-right: auto;
-        margin-left: 15px;
+    .profile {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        // background: red;
+        border-bottom: 1px solid rgb(0, 0, 0);
 
+        .profileImg {
+            margin: 20px 0;
+            background: #fff;
+            height: 260px;
+            
+            img {
+                height: 260px;
+                width: 260px;
+                border-radius: calc(260px / 2);
+            }
+        }
     }
 
-    .a_b {
-        width: 30%;
-        height: 90%;
-        background: blue;
-        margin: 15px;
+    .info {
+        text-align: center;
+        margin: 0 100px;
+
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            background: rgb(227, 238, 230); // taustaväri
+            color: rgb(0, 0, 0); //fontin väri
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600; // fontin paksuus
+        }
     }
 }
+
+// .a {
+//     // background: red;
+//     width: 100%;
+//     height: 240px;
+//     // margin-top: 25px;
+//     // padding: 0 15px;
+//     display: flex;
+//     align-items: center;
+    
+//     .a_a {
+//         width: 30%;
+//         height: 90%;
+//         background: beige;
+//         margin-right: auto;
+//         margin-left: 15px;
+
+//     }
+
+//     .a_b {
+//         width: 30%;
+//         height: 90%;
+//         background: blue;
+//         margin: 15px;
+//     }
+// }
