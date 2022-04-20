@@ -11,6 +11,7 @@ import Navbar from './components/navbar/navbar';
 import Main from './components/pages/Main/main';
 import Projects from './components/pages/Projects/projects';
 import Cv from './components/pages/CV/cv';
+import sidenav from './components/sidenav/sidenav';
 
 
 function App() {

@@ -1,0 +1,28 @@
+.container {
+    background: azure;
+    height: calc(100vh - 35px);
+    
+    .profile {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        background: red;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+}   
+.info {
+    text-align: center;
+    margin: 0 100px;
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        background: rgb(227, 238, 230); // taustaväri
+        color: rgb(0, 0, 0); //fontin väri
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600; // fontin paksuus
+    }
+}

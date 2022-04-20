@@ -21,6 +21,7 @@ const Main: React.FC<MainProps> = () => {
         <p>
           My name is Neo Bognomini. I'm currently studying programming at Varia. Here's my CV and some of my projects.
         </p>
+      
         
 
       </div>

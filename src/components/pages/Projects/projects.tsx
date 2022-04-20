@@ -8,9 +8,12 @@ type ProjectsProps = {
 
 const Projects: React.FC<ProjectsProps> = () => {
   return (
-    <div className={styles.container}>
-      Projects
-    </div>
+    <div className={styles.info}>
+        <h1>Here are my projects</h1>
+        <p>
+          ------------------------------------------------------
+        </p>
+      </div>
   )
 }
 
