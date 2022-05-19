@@ -1,4 +1,6 @@
 import React from 'react'
+import styles from './sidenav.module.scss'
+import { Link } from 'react-router-dom'
 
 type SidenavProps = {
 
@@ -6,11 +8,11 @@ type SidenavProps = {
 
 const Sidenav: React.FC<SidenavProps> = () => {
   return (
-    <div className="sidenav">
-        <a href="#section">Main</a>
-        <a href="#section">Projects</a>
-        <a href="#section">Cv</a>
-        <a href="#section">Contact</a>
+    <div className={styles.sidenav}>
+        <Link to="/">Main</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/cv">Cv</Link>
+        <Link to="/contact">Contact</Link>
     </div>
   )
 }
